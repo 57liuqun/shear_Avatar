@@ -1,0 +1,32 @@
+/* pages/talior_avatar/talior_avatar.wxss */
+page{
+	height: 100%
+	}
+	.cropper-wrapper{
+	height:100%;
+	overflow: auto;
+	background:rgba(0,0,0);
+	}
+	
+	.cropper-buttons{
+	  height:100rpx;
+	  display:flex;
+	  justify-content: center;
+	  align-items: center;
+	  z-index:2000000001;
+	}
+	 .getCropperImage{
+	  width:220rpx;
+	  height:80rpx;
+	  border:10rpx;
+	  background:white;
+	  font-size:36rpx;
+	  /* font-weight:bold; */
+	  text-align:center;
+	  line-height:80rpx;
+	  border-radius:10rpx;
+	  position: fixed; 
+	  bottom:120rpx;
+	  z-index:200000000;
+	  /* font-family: '微软雅黑' */
+	} 

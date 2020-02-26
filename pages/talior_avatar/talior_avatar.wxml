@@ -1,0 +1,6 @@
+<!--pages/talior_avatar/talior_avatar.wxml-->
+<!--此处是我自己的文件路径，大家一定要注意自己的路径-->
+<import src="../../tailor/we-cropper/dist/we-cropper.wxml"/>
+<view class="cropper-wrapper">
+  <template is="we-cropper" data="{{...cropperOpt}}" />
+</view>
